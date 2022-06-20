@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app with web socket ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharvinash/Chat-App.git"
+  },
+  "author": "Tharvinash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharvinash/Chat-App/issues"
+  },
+  "homepage": "https://github.com/Tharvinash/Chat-App#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
